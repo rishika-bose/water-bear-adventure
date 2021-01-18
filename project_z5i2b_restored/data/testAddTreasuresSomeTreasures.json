@@ -1,0 +1,9 @@
+{
+  "place x": "1",
+  "treasure chest": [
+    {"treasure description": "a shiny coin"},
+    {"treasure description": "a shiny coin"}
+  ],
+  "place y": "2",
+  "energy": 50
+}
