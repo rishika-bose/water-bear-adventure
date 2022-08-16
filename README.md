@@ -4,18 +4,19 @@
  plays as a water bear (tardigrade). The tardigrade goes into different environments,
  such as space, and finds a treasure, finding food and escaping predators along the way.
      
-## Phase 4: Task 2 - Testing and designing a robust class
+## Testing and designing a robust class
 
 Testing and design a class in the model package that is robust:
 
 The robust class is the WaterBear class, and the methods I have made robust are:
+
     - runAway()
     - goUp()
     - goDown()
     - goRight()
     - goLeft()
     
-## Phase 4: Task 3 - Refactoring notes
+## Refactoring notes
 
    - There is a lot of code duplication between the WaterBearAdventuresConsoleApp and the WaterBearAdventuresGraphicApp.
     I would like to create an abstract class in the ui package, called WaterBearAdventuresApp, which could contain the 
