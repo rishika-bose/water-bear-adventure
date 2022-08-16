@@ -1,36 +1,12 @@
 # Water Bear Adventures
 
-- **What will the application do?**
-
     The application will be a simple adventure game where the player 
     plays as a water bear (tardigrade). The tardigrade goes into different environments,
     such as space, and finds a treasure, finding food and escaping predators along the way.
-- **Who will use it?**
-    
-    People who enjoy games and want to learn more about water bears.
-- **Why is this project of interest to you?**
-    
-    Water bears have always been one of my favourite animals, because of their amazing 
-    ability to withstand extreme environments. I believe an adventure game with water bears 
-    would be both fun and educational, to create and to play.
-    
-## User stories
-
-   - As a user, I want to be able to eat food.
-   - As a user, I want to be able to run away from predators.
-   - As a user, I want to be able to investigate clues.
-   - As a user, I want to be able to get treasure.
-   - As a user, I want to be able to add a treasure to my treasure-chest.
-   - As a user, I want to be able to choose the environment (deap sea, space, or magma.)
-   - As a user, I want to be able to use treasures to release my friend (and so win the game).
-   - As a user, I want to be able to save my place, energy level, treasure chest 
-     and alive status in the game.
-   - As a user, I want to be able to load my place, energy level, treasure chest 
-     and alive status in the game from file.
      
-## Phase 4: Task 2
+## Phase 4: Task 2 - Testing and designing a robust class
 
-I have chosen the first option, which is to test and design a class in the model package that is robust.
+Testing and design a class in the model package that is robust:
 The robust class is the WaterBear class, and the methods I have made robust are:
     - runAway()
     - goUp()
@@ -38,7 +14,7 @@ The robust class is the WaterBear class, and the methods I have made robust are:
     - goRight()
     - goLeft()
     
-## Phase 4: Task 3
+## Phase 4: Task 3 - Refactoring notes
    - There is a lot of code duplication between the WaterBearAdventuresConsoleApp and the WaterBearAdventuresGraphicApp.
     I would like to create an abstract class in the ui package, called WaterBearAdventuresApp, which could contain the 
     methods that have duplicated code between the two classes, such as loadWaterBear() and saveWaterBear().
