@@ -1,7 +1,5 @@
 # Water Bear Adventures
 
-## My Term Project
-
 - **What will the application do?**
 
     The application will be a simple adventure game where the player 
