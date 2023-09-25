@@ -6,9 +6,7 @@
      
 ## Testing and designing a robust class
 
-Testing and design a class in the model package that is robust:
-
-The robust class is the WaterBear class, and the methods I have made robust are:
+The WaterBear class has been made robust. The methods I have made robust are:
 
     - runAway()
     - goUp()
